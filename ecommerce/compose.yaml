@@ -7,3 +7,12 @@ services:
       - 'POSTGRES_USER=myuser'
     ports:
       - '5432'
+
+####
+    ## If you want to use a `.env` file, please comment the `environment` section.
+    ####
+
+    # The `env_file` tag allows us to declare an environment file
+    #env_file:
+    #  - .env # The name of your environment file (the one at the repository root)
+
