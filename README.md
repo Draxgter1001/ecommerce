@@ -1,0 +1,1 @@
+Simple E-Commerce website used to practice and learn how to do full-stack development using Spring Boot and React
