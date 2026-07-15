@@ -1,3 +1,9 @@
 spring:
   application:
     name: ecommerce
+  docker:
+    compose:
+      file: ../compose.yaml
+  jpa:
+    hibernate:
+      ddl-auto: update
